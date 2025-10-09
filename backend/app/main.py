@@ -15,3 +15,5 @@ Design Notes:
 - It will later use dependency injection to swap in different sources.
 - The goal is to make `app/` the “interface adapter” layer in a clean architecture.
 """
+from fastapi import FastAPI
+
