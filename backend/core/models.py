@@ -21,11 +21,11 @@ from pydantic import BaseModel
 class JobPosting(BaseModel):
     title: str
     location: str
-    snippet: str
+    description: str
     salary: str
     source: str
     type: str
     link: str
     company: str
     updated: str
-    id: int
+    id: str
